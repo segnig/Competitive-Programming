@@ -7,7 +7,7 @@ The repository is organized into different file, each representing a different L
 # How to Use
 You can clone this repository to your local machine using the following command:
 
-< git clone https://github.com/your-username/codeforces-problem-solutions.git >
+< git clone https://github.com/your-username/Leetcode.git >
 Once you have the repository on your machine, you can navigate to the specific folder for the round you are interested in and view the solutions to the problems.
 
 # Contributing
