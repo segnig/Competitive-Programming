@@ -1,0 +1,11 @@
+# Problem: Water Bottles - https://leetcode.com/problems/water-bottles/description
+
+func numWaterBottles(numBottles int, numExchange int) int {
+    result := numBottles
+
+    for numBottles >= numExchange{
+        result += int(numBottles / numExchange) 
+        numBottles = int(numBottles / numExchange) + numBottles % numExchange
+    }
+    return result
+}
