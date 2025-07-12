@@ -1,0 +1,13 @@
+# Problem: Length of Last Word - https://leetcode.com/problems/length-of-last-word/description/
+
+func lengthOfLastWord(s string) int {
+    words := strings.Split(s, " ")
+    result := 0
+
+    for _, word := range words{
+        if word != ""{
+            result = len(word)
+        }
+    }
+    return result
+}
